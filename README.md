@@ -1,4 +1,4 @@
-# calculator
+# Sign-Up Form
 
 This is a solution to the [PROJECT: SIGN-UP FORM](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/sign-up-form)
 
