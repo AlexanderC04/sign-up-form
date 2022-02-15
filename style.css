@@ -11,7 +11,7 @@ body {
   display: flex;
 }
 .column-left {
-  background: url(/images/pandu-ior-hckbnUpcm6E-unsplash.jpg);
+  background: url(images/pandu-ior-hckbnUpcm6E-unsplash.jpg);
 }
 
 .label-container {
