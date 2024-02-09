@@ -30,7 +30,7 @@
         started.
       </p>
       <p>You know you want to.</p>
-      <form action="" method="">
+      <form>
         <h2 class="form-title"><strong>Let's do this! </strong></h2>
         <div>
           <label for="first-name">FIRST NAME</label>
@@ -46,7 +46,13 @@
         </div>
         <div>
           <label for="phone">PHONE NUMBER</label>
-          <input type="tel" name="phone" id="phone" required />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{10}"
+            required
+          />
         </div>
         <div>
           <label for="password">PASSWORD</label>
@@ -62,12 +68,13 @@
           />
         </div>
 
-        <button type="button">Create Account</button>
+        <button type="submit">Create Account</button>
       </form>
       <p>
         Already have an account?
         <a href="/"> Log in </a>
       </p>
+      <!--  -->
     </div>
   </body>
 </html>

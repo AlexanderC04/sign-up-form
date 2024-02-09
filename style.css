@@ -135,3 +135,13 @@ button:active {
 .column-right > p:last-child > a:hover {
   color: #787878;
 }
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
+input:focus:invalid {
+  border-color: black;
+}
